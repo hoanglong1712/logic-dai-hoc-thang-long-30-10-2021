@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage[utf8]{vietnam}
+\begin{document}
+\begin{enumerate}
+    \item  Hôm nay là Chủ nhật.
+    \begin{itemize}
+        \item đặt p = Hôm nay là Chủ nhật.
+        \item $\neg p$ = không, hôm nay là chủ nhật
+        \item $\neg p$ = hôm nay không phải là chủ nhật.
+    \end{itemize}
+    \item $1 +  2 = 3$
+    \begin{itemize}
+        \item đặt p = '$1 +  2 = 3$'
+        \item $\neg p$ = $\neg$ '$1 +  2 = 3$'
+        \item $\neg p$ = '$1 +  2 \neq 3$'
+    \end{itemize}
+    \item Lào và Campuchia không có bờ biển.
+    \begin{itemize}
+        \item kết quả mẫu :  Lào hoặc Campuchia có bờ biển.
+        \item Lào và Campuchia không có bờ biển. $\Longleftrightarrow$ Lào không có bờ biển. và Campuchia không có bờ biển.
+        \item đặt p = Lào không có bờ biển
+        \item đặt q = Campuchia không có bờ biển
+        \item Lào và Campuchia không có bờ biển $\Longleftrightarrow$ $p \wedge q$
+        \item cần tìm $\neg(p \wedge q)$
+        \item $\neg(p \wedge q) \Longleftrightarrow \neg p \vee \neg q$ theo luật De Morgan trong sách trang 20 bang 1.14
+        \item $\neg p$: Lào có bờ biển
+        \item $\neg q$: Campuchia  có bờ biển
+        \item $\neg p \vee \neg q$ : Lào có bờ biển hoặc Campuchia  có bờ biển
+        \item Lào hoặc Campuchia có bờ biển.
+    \end{itemize}
+    \item Mùa hè ở Đà Lạt có nắng nhưng không nóng
+    \begin{itemize}
+        \item kết quả mẫu :  Mùa hè ở Đà Lạt không có nắng hoặc nóng
+        \item Mùa hè ở Đà Lạt có nắng nhưng không nóng $\Longleftrightarrow$ Mùa hè ở Đà Lạt có nắng và Mùa hè ở Đà Lạt không nóng
+        \item p = Mùa hè ở Đà Lạt có nắng
+        \item q = Mùa hè ở Đà Lạt không nóng
+        \item Mùa hè ở Đà Lạt có nắng nhưng không nóng $\Longleftrightarrow$ $p \wedge q$
+        \item cần tìm $\neg(p \wedge q)$
+        \item $\neg(p \wedge q) \Longleftrightarrow \neg p \vee \neg q$ theo luật De Morgan trong sách trang 20 bang 1.14
+        \item \item $\neg p$: Mùa hè ở Đà Lạt không có nắng
+        \item $\neg q$: Mùa hè ở Đà Lạt có nóng
+        \item $\neg p \vee \neg q$ : Mùa hè ở Đà Lạt không có nắng hoặc Mùa hè ở Đà Lạt có nóng
+        \item  Mùa hè ở Đà Lạt không có nắng hoặc có nóng.
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

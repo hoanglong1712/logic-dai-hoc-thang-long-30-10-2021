@@ -1,0 +1,9 @@
+echo "# logic-dai-hoc-thang-long-30-10-2021" >> README.md
+git init
+git add README.md
+git config --global user.email "hoanglong1712@yahoo.com"
+git config --global user.name "hoanglong1712@yahoo.com"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hoanglong1712/logic-dai-hoc-thang-long-30-10-2021.git
+git push -u origin main
